@@ -47,7 +47,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Coding — Simple is Better</title>
+<title>My TiddlyWiki — a non-linear personal web notebook</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~-->
 
 <!--~~ Raw markup ~~-->
@@ -143,15 +143,9 @@ Error message and password prompt
 
 <li>$:/core</li>
 
-<li>$:/DefaultTiddlers</li>
-
 <li>$:/isEncrypted</li>
 
 <li>$:/plugins/tiddlywiki/highlight</li>
-
-<li>$:/SiteSubtitle</li>
-
-<li>$:/SiteTitle</li>
 
 <li>$:/StoryList</li>
 
@@ -9366,9 +9360,6 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20190826094138010" modified="20190826094139066" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>[list[$:/StoryList]]</pre>
-</div>
 <div title="$:/isEncrypted" revision="0" bag="default">
 <pre>no</pre>
 </div>
@@ -9442,13 +9433,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20190826094029987" modified="20190826094124379" title="$:/SiteSubtitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>Simple is Better</pre>
-</div>
-<div created="20190826094010128" modified="20190826094027301" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>Coding</pre>
-</div>
-<div list="[[2019-08-27 Share]]" title="$:/StoryList" revision="1" bag="default">
+<div list="GettingStarted" title="$:/StoryList" revision="1" bag="default">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json" revision="0" bag="default">
@@ -9574,7 +9559,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20190826093744023" modified="20190826113334182" tags="" title="2019-08-27 Share" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190826114120441" modified="20190826114224861" tags="" title="2019-08-27 Share" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>! ''个人Blog放哪''
 * csdn，微博，微信，百度网盘，阿里云/亚马逊云+个人站点，github，哪些公司可能活过百年？
 ! ''Joe Armstrong''
@@ -9588,9 +9573,9 @@ Error message and password prompt
 * 单文件的wiki系统，在本地启动tiddlywiki的服务，通过浏览器可以创建文章，最后都生成一个html文件，可以跟github pages很好的配合 //[[官网|https://tiddlywiki.com/]]//
 * Tiddly Wiki on Node.js
 ```
-tiddlywiki share --init server
-tiddlywiki share --listen
-tiddlywiki share --build index &amp;&amp; mv share/output/index.html . 
+    tiddlywiki blog --init server
+    tiddlywiki blog --listen
+    tiddlywiki blog --build index &amp;&amp; mv blog/output/index.html . 
 ```</pre>
 </div>
 
