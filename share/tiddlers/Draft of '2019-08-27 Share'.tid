@@ -1,7 +1,9 @@
 created: 20190826093744023
-modified: 20190826100633416
+draft.of: 2019-08-27 Share
+draft.title: 2019-08-27 Share
+modified: 20190826101120668
 tags: 
-title: 2019-08-27 Share
+title: Draft of '2019-08-27 Share'
 type: text/vnd.tiddlywiki
 
 ! ''个人Blog放哪，存在最久''
@@ -16,6 +18,6 @@ type: text/vnd.tiddlywiki
 ! ''Tiddly Wiki''
 * 单文件的wiki系统，在本地启动tiddlywiki的服务，通过浏览器可以创建文章，最后都生成一个html文件，可以跟github pages很好的配合 [[官网|https://tiddlywiki.com/]]
 * Tiddly Wiki on Node.js
-** 初始化：tiddlywiki share --init server
-** 监听着：tiddlywiki share --listen
-** 单文件：tiddlywiki share --build index && mv share/output/index.html .
+** 初始化：tiddlywiki share - -init server
+** 监听着：tiddlywiki share - -listen
+** 单文件：tiddlywiki share - -build index && mv share/output/index.html .
