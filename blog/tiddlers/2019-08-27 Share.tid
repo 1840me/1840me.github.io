@@ -1,5 +1,5 @@
-created: 20190826093744023
-modified: 20190826113334182
+created: 20190826114120441
+modified: 20190826114224861
 tags: 
 title: 2019-08-27 Share
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 * 单文件的wiki系统，在本地启动tiddlywiki的服务，通过浏览器可以创建文章，最后都生成一个html文件，可以跟github pages很好的配合 //[[官网|https://tiddlywiki.com/]]//
 * Tiddly Wiki on Node.js
 ```
-tiddlywiki share --init server
-tiddlywiki share --listen
-tiddlywiki share --build index && mv share/output/index.html . 
+    tiddlywiki blog --init server
+    tiddlywiki blog --listen
+    tiddlywiki blog --build index && mv blog/output/index.html . 
 ```
